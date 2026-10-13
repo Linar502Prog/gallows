@@ -10,8 +10,8 @@
 void draw(int iteration,std::string word) {
 	switch (iteration) {
 	case 1:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
@@ -19,8 +19,8 @@ void draw(int iteration,std::string word) {
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 2:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t/        |" << std::endl;
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
@@ -28,8 +28,8 @@ void draw(int iteration,std::string word) {
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 3:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
@@ -37,8 +37,8 @@ void draw(int iteration,std::string word) {
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 4:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
 		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
@@ -46,8 +46,8 @@ void draw(int iteration,std::string word) {
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 5:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
 		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
@@ -55,8 +55,8 @@ void draw(int iteration,std::string word) {
 		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 6:
-		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
-		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t _________" << std::endl;
+		std::cout << "\t\t\t\t\t\t |      \\|" << std::endl;
 		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
 		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
 		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
