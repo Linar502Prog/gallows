@@ -10,40 +10,61 @@
 void draw(int iteration,std::string word) {
 	switch (iteration) {
 	case 1:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 2:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
-		std::cout << "\t\t\t\t\t\t/" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/        |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 3:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
-		std::cout << "\t\t\t\t\t\t/";
-		std::cout << " \\" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 4:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
-		std::cout << "\t\t\t\t\t\t/";
-		std::cout << " \\" << std::endl;
-		std::cout << "\t\t\t\t\t\t |" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 5:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
-		std::cout << "\t\t\t\t\t\t/";
-		std::cout << " \\" << std::endl;
-		std::cout << "\t\t\t\t\t\t |" << std::endl;
-		std::cout << "\t\t\t\t\t\t/" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/        |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		break;
 	case 6:
-		std::cout << "\t\t\t\t\t\t O" << std::endl;
-		std::cout << "\t\t\t\t\t\t/";
-		std::cout << " \\" << std::endl;
-		std::cout << "\t\t\t\t\t\t |" << std::endl;
-		std::cout << "\t\t\t\t\t\t/";
-		std::cout << " \\" << std::endl;
+		std::cout << "\t\t\t\t\t\t  _______" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t O       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
+		std::cout << "\t\t\t\t\t\t |       |" << std::endl;
+		std::cout << "\t\t\t\t\t\t/ \\      |" << std::endl;
+		std::cout << "\t\t\t\t\t\t         |" << std::endl;
 		std::cout << std::endl;
-		std::cout << "ВЫ ПРОИГРАЛИ\n\n\n\n\n";
-		std::cout << std::format("Слово было : {} ", word) << std::endl;
+		std::cout << "ВЫ ПРОИГРАЛИ\n";
+		std::cout << std::format("Слово было : {} \n\n\n\n\n", word) << std::endl;
 		break;
 	default:
 		break;
